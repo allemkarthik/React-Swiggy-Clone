@@ -36,6 +36,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages   # <-- This is required
+      url: https://allemkarthik.github.io/React-Swiggy-Clone/  # optional, helps Actions UI
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
