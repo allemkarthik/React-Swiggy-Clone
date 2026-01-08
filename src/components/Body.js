@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Restaurantcards, { discountComponent } from "./Restaurantcards";
-import Shimmer from "./shimmer";
+import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import useRestroCards from "../utils/useRestroCards";
