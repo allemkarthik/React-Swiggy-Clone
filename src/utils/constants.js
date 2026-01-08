@@ -1,0 +1,5 @@
+export const CDN_URL="https://s3-media0.fl.yelpcdn.com/bphoto/ER6BOufEwknBjniSybIX9A/258s.jpg"
+export const LOGO_URL="https://cdn-icons-png.flaticon.com/512/8449/8449978.png"
+export const restro_imges="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
+export const Hyd_api="https://namastedev.com/api/v1/listRestaurants"
+export const hyd_restro_info_api="https://namastedev.com/api/v1/listRestaurantMenu/"
