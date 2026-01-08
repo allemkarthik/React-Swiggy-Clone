@@ -1,38 +1,35 @@
 {
-  "name": "react",
+  "name": "react-swiggy-clone",
   "version": "1.0.0",
-  "description": "this is react learning",
+  "description": "Swiggy Clone Project",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "jest"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allemkarthik/React-Swiggy-Clone.git"
+    "url": "https://github.com/allemkarthik/React-Swiggy-Clone.git"
   },
-  "keywords": [
-    "react"
-  ],
   "author": "karthik allem",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/allemkarthik/React-Swiggy-Clone/issues"
-  },
   "homepage": "https://allemkarthik.github.io/React-Swiggy-Clone/",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.30.3",
+    "redux": "^4.2.1"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.23",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.16.3",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
   },
-  "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-router": "^6.30.2",
-    "react-router-dom": "^6.30.3"
-  },
   "browserslist": [
-    "last  10  versions"
+    "last 10 versions"
   ]
 }
