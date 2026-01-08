@@ -9,7 +9,7 @@ import About from "./components/About.js";
 import Contact from "./components/Contact.js";
 import Error from "./components/Error.js";
 import RestaurantMenu from "./components/ResturantMenu.js";
-import Shimmer from "./components/shimmer.js";
+// import Shimmer from "./components/shimmer.js";
 import { lazy, Suspense } from "react";
 import userContext from './utils/userContext.js';
 
