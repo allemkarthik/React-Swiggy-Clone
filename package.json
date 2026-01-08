@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/allemkarthik/React-Swiggy-Clone/issues"
   },
-  "homepage": "https://github.com/allemkarthik/React-Swiggy-Clone",
+  "homepage": "https://allemkarthik.github.io/React-Swiggy-Clone/",
   "devDependencies": {
     "autoprefixer": "^10.4.23",
     "parcel": "^2.16.3",
